@@ -10,5 +10,6 @@ Learning:
 Wir haben uns zu sehr in die Datails verstrickt, da wir unbedingt eine 
 
 
-![image](https://github.com/user-attachments/assets/669696bc-22d1-49a2-b397-cec627fd3617)
+![image](https://github.com/user-attachments/assets/5ef61c58-7b52-4f1b-b8a4-9a11aa69eaac)
+
 
