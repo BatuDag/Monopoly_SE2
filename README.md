@@ -71,15 +71,15 @@ Als Sequenz haben wir uns für die „Spieler steht auf einem Sonderfeld“ Mög
 - Gehört das Grundstück einem anderen Spieler, wird die Miete berechnet und der aktuelle Spieler muss diese zahlen. Die Miete wird dem Besitzer gutgeschrieben
 - Gehört das Grundstück dem Spieler selbst, ist keine Aktion erforderlich
 
-**Learning:** 
-TRELLO:
+## Learnings:
+**TRELLO:**
 Wir haben die Aufgaben untereinander aufgeteilt und im Trello-Board festgehalten, sodass jederzeit klar war, wer an welcher Aufgabe arbeitet. Auf eine Schätzung der Stories haben wir verzichtet, da das Projekt einen geringen Umfang hatte.
 
 **TEAM:**
 Im Team haben wir gut zusammengearbeitet und uns zuverlässig aufeinander abgestimmt. Die Aufgabenverteilung war klar, und jeder konnte seine Aufgaben selbstständig bearbeiten. Bei Fragen oder Schwierigkeiten konnten wir uns gegenseitig unterstützen, und die Kommunikation verlief unkompliziert. Insgesamt war die Teamarbeit angenehm und produktiv, was uns geholfen hat, das Projekt erfolgreich umzusetzen.
 
-
-
+**UML:**
+Im Verlauf des Projekts haben wir gelernt, UML-Diagramme zu erstellen und zu verstehen. Dabei haben wir uns mit den Grundlagen der verschiedenen UML-Diagrammtypen vertraut gemacht, wie etwa Klassendiagrammen und Sequenzdiagrammen. Wir haben nicht nur die Bedeutung und die Symbolik der einzelnen Elemente kennengelernt, sondern auch, wie diese Diagramme genutzt werden, um komplexe Systeme visuell darzustellen und zu planen. Dadurch sind wir in der Lage, Strukturen und Abläufe klarer zu kommunizieren und besser zu dokumentieren, was unsere Planung und Zusammenarbeit im Team erleichtert hat.
 
 
 
