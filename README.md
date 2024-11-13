@@ -46,9 +46,9 @@ Als Sequenz haben wir uns für die „Spieler steht auf einem Sonderfeld“ Mög
 - Gehört das Grundstück einem anderen Spieler, wird die Miete berechnet und der aktuelle Spieler muss diese zahlen. Die Miete wird dem Besitzer gutgeschrieben
 - Gehört das Grundstück dem Spieler selbst, ist keine Aktion erforderlich
 
-Learning: 
+**Learning: 
 
-Klassendiagramm finden Sie hier: 
+
 
 
 
