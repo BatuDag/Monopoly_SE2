@@ -29,6 +29,13 @@ Das Ziel des Spiels ist dabei, durch kluge Investitionen und strategisches Bauen
 Unser Data Dictionary beschreibt die Hauptkomponenten unsere softwareseitigen Implementierung von Monopoly. Es stellt sicher, dass alle Attribute und Funktionen konsistent dokumentiert und für die spätere Implementierung bereit sind.
 Im Folgenden sind die wichtigsten Entitäten, die wir näher beschrieben haben.
 
+![image](https://github.com/user-attachments/assets/9b0b0f02-ccf9-425f-af52-d6edcaa8853d)
+
+![image](https://github.com/user-attachments/assets/3b343255-1d80-4c61-9382-b8beee94f6c3)
+
+![image](https://github.com/user-attachments/assets/b464597c-13f3-4e21-b543-74f178a6fadb)
+
+
 ## Use Case Diagramm
 
 Die Use Case Diagramme haben wir tabellarisch dargestellt, um die verschiedenen Anwendungsfälle übersichtlich zu präsentieren. Wir haben uns bewusst für diese Diagramme entschieden, da wir sie unserer Meinung nach als besonders wichtig für die erfolgreiche Umsetzung unseres Projekts erachtet haben.
@@ -48,10 +55,16 @@ Die Use Case Diagramme haben wir tabellarisch dargestellt, um die verschiedenen 
 **Use Case Tabelle für Aktion auf Sonderfeld:**
 ![image](https://github.com/user-attachments/assets/99079731-2abc-43e7-ba93-a40d76c955a8)
 
-**Use Case Tabelle für einen Spielzug:
+**Use Case Tabelle für einen Spielzug:**
 ![image](https://github.com/user-attachments/assets/38940806-56eb-4c36-b46e-da9cc89f8666)
 
+## Sequenzidiagramme 
 
+Bei der Erstellung der Sequenzdiagramme haben wir uns auf die entsprechenden Use-Case-Tabellen bezogen. Zum einen haben wir die Tabelle “Spieler kommt auf Straße” verwendet und zu meinen „Spieler kommt auf Sonderfeld“.
+
+![Spieler kommt auf Straße](https://github.com/user-attachments/assets/9191b220-7816-48f7-aa72-4cf7f0457efe)
+
+![Spieler kommt auf Sonderfeld](https://github.com/user-attachments/assets/09671271-6dab-4457-94cb-fc898e8b746e)
 
 
 
