@@ -28,7 +28,32 @@ Das Ziel des Spiels ist dabei, durch kluge Investitionen und strategisches Bauen
 
 Unser Data Dictionary beschreibt die Hauptkomponenten unsere softwareseitigen Implementierung von Monopoly. Es stellt sicher, dass alle Attribute und Funktionen konsistent dokumentiert und für die spätere Implementierung bereit sind.
 Im Folgenden sind die wichtigsten Entitäten, die wir näher beschrieben haben.
-Use Case Diagramm:
+
+## Use Case Diagramm
+
+Die Use Case Diagramme haben wir tabellarisch dargestellt, um die verschiedenen Anwendungsfälle übersichtlich zu präsentieren. Wir haben uns bewusst für diese Diagramme entschieden, da wir sie unserer Meinung nach als besonders wichtig für die erfolgreiche Umsetzung unseres Projekts erachtet haben.
+
+**Use Case Tabelle für Würfeln:​
+![image](https://github.com/user-attachments/assets/482e1ad5-37da-449a-9e77-93aa70ed0ae3)
+
+**Use Case Tabelle für Ziehen:
+![image](https://github.com/user-attachments/assets/19d5f385-7148-4055-ad68-12b60bb3ce72)
+
+**Use Case Tabelle für Aktion auf Straße:
+![image](https://github.com/user-attachments/assets/7f16f2dd-c008-415c-bc8c-0ae526a8c6e7)
+
+**Use Case Tabelle für Haus/Hotel bauen:
+![image](https://github.com/user-attachments/assets/cea774c5-f291-45bb-adcf-635298419973)
+
+**Use Case Tabelle für Aktion auf Sonderfeld:
+![image](https://github.com/user-attachments/assets/99079731-2abc-43e7-ba93-a40d76c955a8)
+
+**Use Case Tabelle für einen Spielzug:
+![image](https://github.com/user-attachments/assets/38940806-56eb-4c36-b46e-da9cc89f8666)
+
+
+
+
 
 ## Klassendiagramm
 
