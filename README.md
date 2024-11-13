@@ -1,6 +1,9 @@
 # Monopoly_SE2
 Herzlich Willkommen, zu unserer softwareseitigen Entwicklung vom Spiel Monopoly für SE2 von Aahil Mohammad, Fabio Sapia, Richard Gietzelt, Batuhan Dag.
 
+![image](https://github.com/user-attachments/assets/07530abe-7404-4358-9c61-d66f63d51c40)
+
+
 ## Vorwort
 Als ersten Schritt unserer softwareseitigen Implementierung eines Brettspiels, im Kurs Software Engineering II, haben wir Monopoly als Spiel gewählt, da es eine Vielzahl an relevanten Anforderungen und Herausforderungen bietet. Die Komplexität der Spielregeln softwareseitig zu modellieren, sowie die dynamischen Spielerinteraktionen, sowie der zahlreichen Statusänderungen hat es für uns zu einem spannenden Projekt gemacht, welches wir im nachfolgenden Repository dokumentiert festgehalten haben.
 
