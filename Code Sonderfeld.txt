@@ -1,0 +1,44 @@
+@startuml
+actor Spieler
+
+participant Spielbrett
+participant Spielfeld
+participant Sonderfelder
+participant Ereigniskarten
+participant Gemeinschaftskarten
+
+Spieler -> Spielbrett : aktionAusführen()
+activate Spielbrett
+
+alt Spieler auf Sonderfeld
+    Spielbrett -> Spielfeld : getFeldTyp()
+    activate Spielfeld
+    Spielfeld --> Spielbrett : Feldtyp
+    deactivate Spielfeld
+
+    alt Feldtyp == "Gehe ins Gefängnis"
+        Spielbrett -> Spieler : geheInsGefängnis()
+    else Feldtyp == "Los"
+        Spielbrett -> Spieler : erhalteGehalt()
+    else Feldtyp == "Ereignisfeld"
+        Spielbrett -> Ereigniskarten : zieheKarte()
+        activate Ereigniskarten
+        Ereigniskarten --> Spielbrett : Karte
+        deactivate Ereigniskarten
+        Spielbrett -> Spieler : führeKarteAus(Karte)
+    else Feldtyp == "Gemeinschaftsfeld"
+        Spielbrett -> Gemeinschaftskarten : zieheKarte()
+        activate Gemeinschaftskarten
+        Gemeinschaftskarten --> Spielbrett : Karte
+        deactivate Gemeinschaftskarten
+        Spielbrett -> Spieler : führeKarteAus(Karte)
+    else Feldtyp == "Frei Parken"
+        Spielbrett -> Spieler : erhalteGeld()
+    else Feldtyp == "Steuer"
+        Spielbrett -> Spieler : zahleSteuer()
+    end
+end
+
+deactivate Spielbrett
+
+@enduml

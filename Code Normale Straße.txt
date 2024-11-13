@@ -1,0 +1,43 @@
+@startuml
+actor Spieler
+participant Spielfeld
+participant Grundstücke
+participant Sonderfelder
+participant Bank
+participant Besitzer
+
+Spieler -> Spielfeld: Aktion ausführen()
+activate Spielfeld
+
+alt Spieler auf Sonderfeld
+    Spielfeld -> Sonderfelder: Sonderaktion ausführen
+    activate Sonderfelder
+    Sonderfelder --> Spielfeld
+    deactivate Sonderfelder
+
+else Spieler auf Straße
+    Spielfeld -> Grundstücke: Grundstückaktion ausführen
+    activate Grundstücke
+
+    alt Straße gehört niemandem
+        Grundstücke -> Spieler: Kaufoption anbieten
+        Spieler -> Bank: Zahlung für Kauf
+        Bank -> Spieler: Straße übertragen
+
+    else Straße gehört anderem Spieler
+        Grundstücke -> Besitzer: Miete berechnen
+        Besitzer -> Spieler: Miete fordern
+        Spieler -> Bank: Miete zahlen
+        Bank -> Besitzer: Miete gutschreiben
+
+    else Straße gehört Spieler selbst
+        Grundstücke -> Spieler: Keine Aktion erforderlich
+    end
+
+    Grundstücke --> Spielfeld
+    deactivate Grundstücke
+end
+
+deactivate Spielfeld
+
+@enduml
